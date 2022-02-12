@@ -69,6 +69,7 @@ class ProductController
                 exit;
             }
         }
+
         $router->renderView("products/create", [
             "product" => $productData,
             "errors" => $errors
